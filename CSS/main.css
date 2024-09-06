@@ -1,0 +1,349 @@
+*{
+    margin: 0px;
+}
+.clr{
+    clear: both;
+}
+   /* Home section */
+
+#home {
+    background-image: url('../images/drew-coffman-1872.jpg');
+    height: 100vh;
+     background-size: 100% 100%;
+}
+.navbar{
+    background-color: transparent;
+    color: white;
+    height: 50;
+    padding: 0px 20px;
+    font-family: 'Alegreya', serif;
+    font-size: 18px;
+}
+.navbar img{
+    padding: 20px 200px;
+    float: left;
+    height: 90%;
+    width: 150px;
+}
+.navbar ul{
+    list-style: none;
+    float: right;
+    padding-right: 200px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    display: inline-block;
+    padding: 30px 10px ;
+}
+#home .caption{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    font-size: 32px;
+    font-family: 'Alegreya', serif;
+}
+
+  #home .caption h1{
+   font-family: 'Alegreya', serif;
+   font-size: 76px;
+  }
+#home .caption .p1{
+    padding: 10px  ;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+   }
+#home .caption .p2{
+ 
+ padding: 40px;
+ font-family: 'Alegreya Sans', sans-serif;
+ font-size: 24px;
+ 
+}
+#home .caption .btn1 ,#home .caption .btn2{
+    padding: 15px 20px;
+   color: white;
+   border-radius:4px ;
+   font-family: 'Alegreya Sans', sans-serif;
+   font-size: 16px;
+}
+#home .caption .btn1{
+    border: none;
+    background-color:#8e7754;
+}
+    
+#home .caption .btn2{
+    border: 2px solid white;
+    background-color: transparent;
+}     
+#home .caption .test{
+    background-color:transparent;
+    width: 20px;
+    height: 35px;
+    border: 2px solid white;
+     border-radius: 25px;
+     margin:90 auto;
+    
+}
+         /*WHO WE ARE SECTION*/
+
+         #about{
+   
+            height: 700px;
+            width: 71%;
+            margin: auto;
+         }
+         #about h2{
+            font-family: 'Alegreya', serif;
+            font-size: 32px;
+         }
+         #about .about-img{
+            
+            width: 48%;
+            display: inline-block;
+            margin:75px 43px 90px 0px;
+
+         }
+         #about .about-img img{
+            
+            width: 100%;
+        
+         }
+         #about .about-info{
+            font-family: 'Alegreya Sans', sans-serif;
+            font-size: 17px;
+            width: 48%;
+            height: 100%;
+            display: inline-block;
+         
+         }
+         .about-info{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+         }
+         
+         #about .about-info h2{
+            color:#303030;
+            margin: 20px 0px;
+         }
+         #about .about-info p{
+            color:#686868;
+            line-height: 32px;
+            
+         }
+      
+         .about-info img{
+            width: 40px;
+            border: 1px solid #cedef3;
+            border-radius: 50%;
+         }
+
+
+         /* Our location section */
+         #location{
+            background-color: #f8f8f8;
+            height: 550px;
+            
+         }
+         #location h2{
+            color:#303030;
+            font-family: 'Alegreya', serif;
+            font-size: 32px;
+         }
+         #location .location-info{
+            width: 550px;
+            display: inline-block;
+            margin-left: 200px;
+         }
+         #location .location-info p{
+            color:#686868;
+            font-family: 'Alegreya Sans', sans-serif;
+            font-size: 17px;
+            line-height: 32px;
+         }
+          #location .location-img {
+            
+            display: inline-block;
+            width: 500px;
+            margin: 80px 0px 80px 100px;
+         } 
+         #location .location-img img{
+            width: 100%;
+         }
+         /* our baking section */
+
+      #ourbaking{
+         
+         height: 600px;
+         text-align: center;
+         padding: 80px 0px ;
+      }
+      #ourbaking h2{
+         color:#303030;
+         font-family: 'Alegreya', serif;
+         font-size: 30px;
+      }
+     #ourbaking h3{
+      font-family: 'Alegreya', serif;
+      font-size: 22px;
+      color:#303030;
+     }
+     #ourbaking p{
+      
+     color: #686868;
+     font-size: 17px;
+     font-family: 'Alegreya Sans', sans-serif;
+
+     }
+         .baking{
+            display: inline-block;
+            text-align: center;
+            width: 350px ;
+            margin:0px 15px 0px 15px;
+   
+           }
+      .baking img{
+   width: 100%;
+        }
+         .baking .p2{
+         line-height: 32px;
+         }
+
+
+         /* contact section */
+         #contact{
+            background-color: #f8f8f8;
+            height: 500px;
+             padding: 90px 0px; 
+         }
+         #contact h1{
+            color:#303030;
+            font-size: 32px;
+            font-family: 'Alegreya', serif;
+         }
+         .contact-info p, .contact-info h3, .contact-info span{
+            	color:#686868;
+               font-size: 17px;
+               	
+               font-family: 'Alegreya Sans', sans-serif;
+         }
+         #contact .contact-info{
+     width: 550px ;
+       margin-left: 170px; 
+      float: left;
+         }
+         #contact .contact-info img{
+            width: 30px;
+            background-color: #8e7754;
+            border-radius: 50%;
+         }
+         #contact .map {
+          width: 550px;
+          float: left;
+          height: 600px ;
+         margin-left: 60px;
+         }
+         #contact .map iframe{
+            width: 100%;
+            height: 90%;
+         }
+                /* summary section */
+     #sum{
+      background-color: #403d38;
+       height: 300px;
+       color: #54595e;
+       padding: 80px 0px 50px 100px;
+       margin: auto;
+     }
+     #sum h3{
+      color:#FFFFFF;
+      font-size: 18px;
+      font-family: 'Alegreya', serif;
+     }
+     #sum p , #sum span{
+      color:#969696;
+      font-size: 16px;
+      font-family: 'Alegreya Sans', sans-serif;
+   
+     }
+     .sum1{
+      width: 250px;
+     
+      float: left;
+      margin-left: 20px;
+     }
+     .sum2{
+     
+      float: left;
+      width: 300px;
+      line-height: 32px;
+      margin-left: 20px;
+     }
+     .sum2 img{
+      width: 20px;
+     }
+     .sum2 .line{
+      background-color: #54595e;
+      width:300px;
+      height: 0.5px;
+     }
+     .sum3{
+      
+      float: left;
+      width: 300px;
+      line-height: 32px;
+      margin-left: 20px;
+     }
+     .sum3 img{
+      width: 20px;
+     }
+      .sum3 .line{
+      background-color: #54595e;
+      width:300px;
+      height: 0.5px;
+     }
+     .sum4{
+      background-image: url('../images/contact-details-map.png');
+      background-repeat: no-repeat;
+      background-size:50% 50%;
+      background-position: 50% 50%;
+      float: left;
+      width: 300px;
+      line-height: 32px;
+      margin-left: 20px;
+     }
+     .sum4 img{
+      width: 30px;
+     }
+      .sum4 .line{
+      background-color: #54595e;
+      width:300px;
+      height: 0.5px;
+     }  
+
+      /* last section */
+
+     #logo{
+    background-color:#353330 ;
+    height: 210px;
+    color:#777777;
+     font-size: 15px;
+     font-family: 'Alegreya Sans', sans-serif;
+    text-align: center;
+    padding-top: 70px;
+
+     }
+     #logo .img1{
+         width: 300px;
+         border-radius: 0px;
+         background-color: transparent;
+     }
+     #logo img{
+  width: 40px;
+  border-radius: 50%;
+  background-color: #484540;
+
+     }
