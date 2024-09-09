@@ -90,33 +90,51 @@
          /*WHO WE ARE SECTION*/
 
          #about{
-   
-            height: 700px;
-            width: 71%;
+    /* background: #09c; */
+            /* height: 600px; */
+            width: 85%;
             margin: auto;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            /* padding-top: 30px; */
+            /* padding-left: 30px; */
+            padding-top: 30px;
+            margin-bottom: 30px;
          }
          #about h2{
             font-family: 'Alegreya', serif;
             font-size: 32px;
          }
          #about .about-img{
-            
-            width: 48%;
+           
+            /* height: 80%; */
+            width: 40%;
             display: inline-block;
-            margin:75px 43px 90px 0px;
+      
+               padding-top: 30px;
+               justify-content: center;
+               align-items: center;
+           /* padding-left: 30px; */
 
          }
          #about .about-img img{
             
-            width: 100%;
+            width: 90%;
+            /* margin-top: 30px; */
+            
         
          }
          #about .about-info{
+          
             font-family: 'Alegreya Sans', sans-serif;
             font-size: 17px;
-            width: 48%;
-            height: 100%;
+            width: 60%;
+            /* height: 80%; */
             display: inline-block;
+            /* padding-inline: 20px;
+            padding-bottom: 20px; */
+
          
          }
          .about-info{
@@ -127,7 +145,7 @@
          
          #about .about-info h2{
             color:#303030;
-            margin: 20px 0px;
+         margin-bottom: 20px;
          }
          #about .about-info p{
             color:#686868;
@@ -145,8 +163,11 @@
          /* Our location section */
          #location{
             background-color: #f8f8f8;
-            height: 550px;
-            
+            /* height: 550px; */
+            padding-left:30px ;
+           
+           
+            /* margin-left: auto; */
          }
          #location h2{
             color:#303030;
@@ -154,9 +175,10 @@
             font-size: 32px;
          }
          #location .location-info{
-            width: 550px;
+            width: 40%;
             display: inline-block;
-            margin-left: 200px;
+            margin-left: 30px;
+            padding-inline: 15px;
          }
          #location .location-info p{
             color:#686868;
@@ -167,8 +189,9 @@
           #location .location-img {
             
             display: inline-block;
-            width: 500px;
-            margin: 80px 0px 80px 100px;
+            width: 40%;
+             margin-left: 30px;
+             margin-top: 30px;
          } 
          #location .location-img img{
             width: 100%;
@@ -177,9 +200,9 @@
 
       #ourbaking{
          
-         height: 600px;
+         /* height: 600px; */
          text-align: center;
-         padding: 80px 0px ;
+         padding: 50px 0px ;
       }
       #ourbaking h2{
          color:#303030;
@@ -216,8 +239,10 @@
          /* contact section */
          #contact{
             background-color: #f8f8f8;
-            height: 500px;
-             padding: 90px 0px; 
+            /* height: 500px; */
+             padding: 50px 0px; 
+             margin: auto;
+             padding-left: 30px;
          }
          #contact h1{
             color:#303030;
@@ -231,9 +256,12 @@
                font-family: 'Alegreya Sans', sans-serif;
          }
          #contact .contact-info{
-     width: 550px ;
-       margin-left: 170px; 
+     width: 45% ;
+    
+       margin-left: auto; 
       float: left;
+      align-items: center;
+      padding-left:30px ;
          }
          #contact .contact-info img{
             width: 30px;
@@ -241,10 +269,12 @@
             border-radius: 50%;
          }
          #contact .map {
-          width: 550px;
-          float: left;
+            
+          width: 50%;
+          float: right;
           height: 600px ;
-         margin-left: 60px;
+         margin-right: 60px;
+         padding-right: 60px;
          }
          #contact .map iframe{
             width: 100%;
@@ -270,15 +300,13 @@
    
      }
      .sum1{
-      width: 250px;
-     
+      width: 20%;
       float: left;
       margin-left: 20px;
      }
      .sum2{
-     
       float: left;
-      width: 300px;
+      width: 25%;
       line-height: 32px;
       margin-left: 20px;
      }
@@ -287,22 +315,22 @@
      }
      .sum2 .line{
       background-color: #54595e;
-      width:300px;
+      width:70%;
       height: 0.5px;
      }
      .sum3{
       
       float: left;
-      width: 300px;
+      width: 20%;
       line-height: 32px;
-      margin-left: 20px;
+      /* margin-left: 20px; */
      }
      .sum3 img{
       width: 20px;
      }
       .sum3 .line{
       background-color: #54595e;
-      width:300px;
+      width:85%;
       height: 0.5px;
      }
      .sum4{
@@ -311,7 +339,7 @@
       background-size:50% 50%;
       background-position: 50% 50%;
       float: left;
-      width: 300px;
+      width: 20%;
       line-height: 32px;
       margin-left: 20px;
      }
@@ -320,7 +348,7 @@
      }
       .sum4 .line{
       background-color: #54595e;
-      width:300px;
+      width:85%;
       height: 0.5px;
      }  
 
@@ -328,12 +356,12 @@
 
      #logo{
     background-color:#353330 ;
-    height: 210px;
+    /* height: 210px; */
     color:#777777;
      font-size: 15px;
      font-family: 'Alegreya Sans', sans-serif;
     text-align: center;
-    padding-top: 70px;
+    padding-block: 50px;
 
      }
      #logo .img1{
@@ -347,3 +375,210 @@
   background-color: #484540;
 
      }
+              /*Media query*/
+     @media screen and (max-width:576px){
+      #about .about-img{
+         width: 100%;
+         margin-bottom: 20px;
+      }
+     #about{
+      /* height: 1100px; */
+     }
+      #location .location-info{
+         width: 90%;
+       text-align: center;
+        margin-left: 20px;
+      padding-top: 15px;
+      }
+      #location .location-img{
+         width: 90%;
+       text-align: center;
+        margin-left: 20px;
+      
+      }
+      #location{
+         padding-top: 30px;
+         height: 1000px;
+      }
+      #ourbaking{
+         /* height: 1550px;*/
+      } 
+      .baking .p2{
+         padding-bottom: 3px;
+         }
+         #contact{
+            background-color: #f8f8f8;
+            /* height: 1000; */
+             /* padding: 15px 0px;  */
+             align-items: center;
+         }
+         #contact .contact-info{
+            width: 550px ;
+              margin-left: 20px; 
+             float: left;
+             align-items: center;
+                }
+                #contact .map {
+                  width: 550px;
+                  float: left;
+                  height: 600px ;
+                 margin-left: 10px;
+                 margin-top: 10px;
+                 }
+                 .sum1{
+                  width: 80%;
+                 align-items: center;
+                 margin-bottom: 30px;
+                 }
+                 .sum2{
+                  width: 80%;
+                 align-items: center;
+                 margin-bottom: 30px;
+                 }
+                 .sum3{
+                  width: 80%;
+                 align-items: center;
+                 margin-bottom: 30px;
+                 margin-left: 10px;
+                 }
+                 .sum4{
+                  width: 80%;
+                 align-items: center;
+                 margin-bottom: 30px;
+                 }
+                 #sum{
+                  background-color: #403d38;
+                  height: 1200;
+                   color: #54595e;
+                   margin: auto;
+                 }
+     
+   }
+      @media screen and (min-width:577px) and (max-width:768px){
+      .baking{
+            
+            text-align: center;
+            width: 40% ;
+            margin-inline: 5px;
+            margin-bottom: 20px;
+      }
+            #ourbaking{
+               align-items: center;
+               height:1000px ;
+            }
+            .sum1{
+               width: 40%;
+              align-items: center;
+              /* margin-bottom: 30px; */
+              }
+              .sum2{
+               
+               width: 40%;
+              align-items: center;
+              margin-bottom: 30px;
+              }
+              .sum3{
+              
+               width: 40%;
+              align-items: center;
+              margin-bottom: 30px;
+            
+              }
+              .sum4{
+             
+               width: 35%;
+              align-items: center;
+              margin-bottom: 30px;
+              }
+              #sum{
+               
+               background-color: #403d38;
+               height: 700px;
+                color: #54595e;
+               
+              }
+              .sum4 img{
+               width: 10px;
+              }
+              .sum4 .line{
+               background-color: #54595e;
+               width:70%;
+               height: 0.5px;
+           }
+           
+           
+         } 
+
+         
+        
+     
+      @media screen and (min-width:769px) and (max-width:992px){
+      .baking{
+            display: inline-block;
+            text-align: center;
+            width: 33.3333% ;
+           margin-bottom: 5px;
+   
+           }
+           
+          
+         
+         #contact .contact-info{
+           width: 30%;
+              
+             float: left;
+             align-items: center;
+             margin-left: 30px;
+                }
+                #contact .map {
+                 
+                 display: flex;
+                 justify-content: space-around;
+                 align-items: center;
+                 margin-left: 30px;
+                 }
+                 .sum1{
+                  width: 30%;
+                 }
+                 
+                 .sum2{
+                  width: 30%;
+                 }.sum3{
+                  width: 30%;
+                 }
+                 
+                 .sum4{
+                  width: 90%;
+                 margin-top: 20px;
+                 }
+                 #sum{
+                  height: 600px;
+                 }
+                
+         
+         
+      }
+      @media screen and (min-width:993px) {
+         
+             
+            
+            #contact .contact-info{
+              width: 30%;
+                float: left;
+                align-items: center;
+                margin-left: 30px;
+                   }
+                   #contact .map {
+                    
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    margin-left: 30px;
+                    }
+                   
+            
+            
+         }
+        
+     
+   
