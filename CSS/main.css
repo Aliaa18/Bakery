@@ -471,7 +471,7 @@ header .scroll::after{
    cursor: pointer;
      }
               /*Media query*/
-     @media screen and (max-width:576px){
+     @media screen and (max-width:768px){
       #Home{
          height: 80%;
       }
@@ -766,7 +766,7 @@ transform: translateY(-50%) rotate(-45deg);
      
    }
          /*  Medium devices (tablets, 768px and up) */
-          @media (min-width: 768px) { 
+          /* @media (min-width: 768px) { 
             #home{
                height: 80%;
             }
@@ -783,7 +783,7 @@ transform: translateY(-50%) rotate(-45deg);
         .navbar .caption{
          padding-top: 60px;
         }
-          }
+          } */
 
          /* Small devices (landscape phones, 576px and up) */
           /* @media (min-width: 576px) {
