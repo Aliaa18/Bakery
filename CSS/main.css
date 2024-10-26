@@ -767,6 +767,9 @@ transform: translateY(-50%) rotate(-45deg);
    }
          /*  Medium devices (tablets, 768px and up) */
           @media (min-width: 768px) { 
+            #home{
+               height: 80%;
+            }
             .navbar img{
                width: 20%;
                height: 65%;
