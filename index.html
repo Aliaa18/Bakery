@@ -1,27 +1,36 @@
 <html>
 <head>
+  <title> Bakery </title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./CSS/main.css">
+
+<link rel="shortcut icon" href="./images/Icons/chef-hat-logo-icon-vector-600nw-2297100465.webp" type="image/x-icon" />
+ <link rel="stylesheet" href="./CSS/all.min.css">
+
+<link rel="stylesheet" href="./CSS/main.css">
+
+
 </head>
 <body>
+ 
+    
     <!-- HOME SECTION -->
   <div id="home">
     <div class="navbar">
         <img src="./images/bakery-light-1.png" alt="navbar-logo">
+        <div class="icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <ul>
          <li><a href="#home">Home</a> </li>
          <li><a href="#about">About</a> </li>
@@ -33,13 +42,15 @@
         </ul>
         <div class="clr"></div>
     </div>
-       <div class="caption">
-     <p class="p1">Welcome To</p>
-     <h1>Family Bakery</h1>
-     <p class="p2">We're the biggest, best equipped and most advanced Bakery in the greater<br><br> Los Angeles area.</p>
-     <button class="btn1">Learn more</button>
-     <button class="btn2">Contact us</button> 
-     <div class="test"></div>
+       <div class="test">
+        <div class="caption">
+          <p class="p1">Welcome To</p>
+          <h1>Family Bakery</h1>
+          <p class="p2">We're the biggest, best equipped and most advanced Bakery in the greater<br><br> Los Angeles area.</p>
+          <button class="btn1">Learn more</button>
+          <button class="btn2">Contact us</button> 
+         <a href="#about" class="scroll"></a>
+            </div>
        </div>
   </div>   
           <!-- WHO WE ARE SECTION -->
@@ -47,10 +58,12 @@
        <div id="about">
           <div class="about-img" >
             <img src="./images/alexandru-stavrica.jpg" alt="">
-          </div><div class="about-info flex">
+          </div>
+          <div class="about-info ">
             <h2>Who we are?</h2>
             <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.
             </p><br>
+           <div class="icons">
             <img src="./images/Icons/leaf.png" alt="leaf icon">
             <span>We care about environment.</span><br><br>
             <img src="./images/Icons/people.png" alt=" icon">
@@ -59,36 +72,45 @@
             <span>Social media loves us!</span><br><br>
             <img src="./images/Icons/check.png" alt=" icon">
             <span>This list is super easy to create.</span><br>
+           </div>
           </div>
+          <div class="clr"></div>
           </div>
        
       
 
                <!-- Our Location section -->
-       <div id="location">
-      <div class="location-info">
-        <h2>Our Location</h2>
-        <br><br>
-        <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
-        <br><br><p>Story on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
-      </div><div class="location-img">
-       <img src="./images/full-2.jpg" alt="location-img">
+      <div class="LocCont">
+        <div id="location">
+          <div class="location-info">
+            <h2>Our Location</h2>
+            <br><br>
+            <p>We have been operating for over 30 years and are Members of The Federation of Master Builders. We work on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+            <br><br><p class="p1">Story on projects big and small from small residential extensions to full house. We are so happy with this theme. Everyday it make our lives better.</p>
+          </div>
+          <div class="location-img">
+           <img src="./images/full-2.jpg" alt="location-img">
+          </div>
+    
+           </div>
       </div>
-       </div>
 
                 <!-- our baking section -->
        <div id="ourbaking">
            <h2>Our Baking</h2><br><br>
            <p class="p1">Learn more about them. We have worked truly hard to make them perfect for every use.</p>
-          <br><br><div class="baking">
+          <br><br>
+          <div class="baking">
             <img src="./images/ben-garratt.jpg" alt="baking-img"><br><br>
             <h3>Superior Breads</h3><br>
             <P class="p2">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</P>
-          </div><div class="baking">
+          </div>
+          <div class="baking">
             <img src="./images/stas-ovsky.jpg" alt="baking-img"><br><br>
             <h3>Bagels</h3><br>
             <P class="p2">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</P>
-          </div><div class="baking">
+          </div>
+          <div class="baking">
             <img src="./images/clem-onojeghuo.jpg" alt="baking-img"><br><br>
             <h3>Cookies</h3><br>
             <P class="p2">Proin interdum, ante ut sollicitudin commodo, tellus quam sagittis libero, at semper mauris velit a velit. Phasellus commodo turpis et lacinia posuere.</P>
@@ -98,15 +120,18 @@
        <div id="contact" >
                <div class="contact-info">
                 <h1>Contact Information</h1>
-                <br><br><p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <br><br>
+                <p>I am text block. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
                 <br><br><h3>Our contact details:</h3><br><br>
                 <img src="./images/Icons/map.png" alt="icon"><span>Manchester St 123-78B, Random 713, UK</span><br>
                 <img src="./images/Icons/phone.png" alt="icon"><span>+46 123 456 789</span><br><br>
                 <img src="./images/Icons/headphone.png" alt="icon"><span>+37 431 456 789</span><br><br>
                 <img src="./images/Icons/email.png" alt="icon"><span>hello@sitename.com</span><br><br>
-               </div><div class="map">
+               </div>
+               <div class="map">
                 <iframe src="https://www.embedmymap.com/?gclid=CjwKCAjwgqejBhBAEiwAuWHioHWWxOc9Ig9l-FjXfmeoQTpxMpv7OufjHMwVcvzTuLuHmrdSC4hGUhoCv-cQAvD_BwE" frameborder="0"></iframe>
-               </div><div class="clr"></div>
+               </div>
+               <div class="clr"></div>
        </div>
                             <!-- summary section -->
            <div id="sum">
@@ -169,31 +194,6 @@
 
 
                             </div>
-
-
-
-
-
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 </body>
